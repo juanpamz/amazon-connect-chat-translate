@@ -1,0 +1,6 @@
+Content-Security-Policy: frame-ancestors 'self' https://junzamo-test-connect.my.connect.aws
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: https://junzamo-test-connect.my.connect.aws
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Credentials: true
