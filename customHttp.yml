@@ -2,6 +2,6 @@ customHeaders:
   - pattern: '/*'
     headers:
       - key: 'X-Frame-Options'
-        value: 'ALLOW-FROM https://iframetester.com'
+        value: 'ALLOWALL'
       - key: 'Content-Security-Policy'
-        value: "frame-ancestors 'self' https://iframetester.com https://junzamo-test-connect.my.connect.aws"
+        value: "frame-ancestors * https://*.connect.aws https://*.amazonaws.com; frame-src *;"
